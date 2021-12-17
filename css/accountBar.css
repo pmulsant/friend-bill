@@ -1,0 +1,28 @@
+.barContainer {
+  height: 32px;
+  padding: 0 24px;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  background-color: lightblue;
+  vertical-align: middle;
+}
+
+.bar {
+  display: inline-block;
+  position: relative;
+  height: 16px;
+  width: 100%;
+  border: solid #ced4da 1px;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.innerBar {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  border-radius: 100px;
+}

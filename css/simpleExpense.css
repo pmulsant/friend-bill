@@ -1,0 +1,9 @@
+#simpleExpenseBill {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+#simpleExpenseMembers {
+  margin: 0;
+}
