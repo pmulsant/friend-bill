@@ -4,7 +4,7 @@ frontend:
     prebuild:
         commands:
             - yarn global add react-scripts
-            - yarn
+            - yarn install --prod
     build:
       commands:
             - yarn run build
