@@ -3,7 +3,9 @@ frontend:
   phases:
     prebuild:
         commands:
+            - rm -rf node_modules/
             - yarn install
+            - yarn add react-scripts
     build:
       commands:
             - yarn run build
