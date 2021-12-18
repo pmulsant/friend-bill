@@ -4,6 +4,7 @@ frontend:
     prebuild:
         commands:
             - rm -rf node_modules/
+            - yarn global add create-react-app
             - yarn install
             - yarn add react-scripts
             - echo exists1
