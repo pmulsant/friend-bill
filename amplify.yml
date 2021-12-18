@@ -6,6 +6,10 @@ frontend:
             - rm -rf node_modules/
             - yarn install
             - yarn add react-scripts
+            - echo exists1
+            - test -f ./node_modules/react-scripts/bin/react-scripts.js
+            - echo exists2
+            - test -f ./node_modules/react-router-dom/index.js
     build:
       commands:
             - yarn run build
